@@ -6,18 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilo.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-    <link rel="manifest" href="img/site.webmanifest">
     <style>
      
     body {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
          background-color: rgb(209, 229, 255); 
          color: rgb(0, 0, 0);
-         text-align: center;
-        
          }
+
+     
+
+
+         main { text-align: center;}
+
 
        #listas ul { 
           margin-right: 40px;
@@ -30,7 +30,7 @@
                      
 img:hover {filter: opacity(.5);}
 
- #icono { max-width: 10%;
+      #icono { max-width: 10%;
        max-height: 20%;}
                         
     </style>
@@ -38,11 +38,29 @@ img:hover {filter: opacity(.5);}
 
 </head>
 <body>
+  <header>
+        <img src="logoTransparente.png" alt="logo TraiAr" width="15%" height="15%">
+        <h1>TraiAr Technology</h1> 
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="integrantes.html">Integrantes</a></li>
+                <ul>
+                    <li><a href="fichaPersonalGonzalo.html">Gonzalo Pedrosa</a></li>
+                    <li><a href="fichaPersonalAnabel.html">Anabel Ojeda León</a></li>
+                    <li><a href="fichaPersonalIsabel.html">Isabel Pacheco</a></li>
+                    <li><a href="fichaPersonalFausto.html">Fausto Tapia</a></li>
+                </ul>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
   <main>
     <div>
       <div id="nombre">
         <h1>Fausto Tapia</h1>
-          <img src="FaustoTapiaFoto2.jpg" alt="Foto Fausto Tapia">
+          <img src="FaustoTapiaFoto2.jpg" alt="Foto Fausto Tapia" id="FotoFausto">
         <h3>¡Bienvenido! Soy Fausto Tapia. </h3>
         <p>Tengo conocimientos en: Javascript, HTML, CSS, Photoshop, Excel y Gitlab.
         </p>
@@ -80,12 +98,16 @@ img:hover {filter: opacity(.5);}
                 
             </ul>  
         </ul>
+
+        <p>¡Gracias!</p>
+
+        <img src="logoTransparente.png" alt="" id="icono">
     </div>
 </main>
 
 <footer>
-    <p>¡Gracias!</p>
-    <img src="android-chrome-192x192.png" alt="" id="icono">
+   
+
 </footer>
 </body>
 </html>
