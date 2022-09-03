@@ -1,3 +1,116 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background: #FFFFFF;
+}
+
+.header{
+    background: white;
+    padding: 6px 24px;
+    text-align: left;
+    color: black;
+    margin: 0;
+    letter-spacing: 1px;
+    font: caption; 
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.menu{
+    background-color: black;
+    margin: 1px;
+    overflow: hidden; /* Overflow controla que pasa con el contenido si sobrepasa el espacio (hidden lo oculta) */
+    position: sticky;
+}
+
+.menu a{
+    font: menu;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    box-sizing: border-box; /* border box hace que el tamaño INCLUYA el padding dentro del height y width */
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px 24px;
+
+}
+.menu a:hover{
+    background: #fb8500;
+    color:black;
+}
+
+
+footer{
+    background: #111;
+    height:auto;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    color: white;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.redes{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.redes li{
+    margin: 0 10px
+}
+.redes a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.redes a i{
+    font-size: 1.1rem;
+}
+.redes a:hover i{
+    color:#fb8500
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+
+
+
+
 h1 {
      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
     font-size: 23px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; 
