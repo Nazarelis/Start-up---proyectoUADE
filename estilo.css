@@ -1,29 +1,31 @@
-
 body{
     padding: 0px;
     margin: 0px;
     background: #FFFFFF;
 }
 
+
+
+/*HEADER*/
+* {
+    padding: 0px;
+    margin:0px;
+}
 .header{
     background: white;
     padding: 6px 24px;
     text-align: left;
-    color: black;
+    color: #023047;
     margin: 0;
     letter-spacing: 1px;
-    font: caption; 
     font-size: 24px;
     text-transform: uppercase;
 }
-
 .menu{
-    background-color: black;
+    background-color: #023047;
     margin: 1px;
-    overflow: hidden; /* Overflow controla que pasa con el contenido si sobrepasa el espacio (hidden lo oculta) */
-    position: sticky;
+    overflow: hidden; /* Overflow controla que pasa con el contenido si sobrepasa el espacio (hidden lo oculta) */  
 }
-
 .menu a{
     font: menu;
     text-decoration: none;
@@ -38,12 +40,83 @@ body{
 }
 .menu a:hover{
     background: #fb8500;
-    color:black;
+    color:#023047;
+}
+.header .menu {
+    margin:auto;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu ul, .menu li{
+    list-style: none;
+}
+
+.menu li a{
+    background-color: #023047;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.menu > li{
+    float: left;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li a:hover{
+    background-color: #FB8500;
+    color: #023047;
+}
+
+.submenu {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .submenu a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      .submenu a:hover {background-color: #FB8500}
+  
+      .menu:hover .submenu {
+        display: block;
+      }
+
+
+
+
+
+/*MAIN*/
+
+.main-content {
+    margin: 30px;
+    justify-content: center;
+    display: block;
 }
 
 
+
+
+
+
+
+/*FOOTER*/
 footer{
-    background: #111;
+    background: #023047;
     height:auto;
     width: 100vw;
     font-family: Arial, Helvetica, sans-serif;
@@ -95,10 +168,10 @@ footer{
 }
 
 .footer-bottom{
-    background: #000;
-    width: 100vw;
-    padding: 20px 0;
-    text-align: center;
+    background: #023047;
+    width:100vw;
+    padding:20px 0;
+    text-align:center;
 }
 
 .footer-bottom p{
@@ -111,6 +184,8 @@ footer{
 
 
 
+
+/**/
 h1 {
      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
     font-size: 23px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; 
