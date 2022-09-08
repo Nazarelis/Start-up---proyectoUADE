@@ -48,9 +48,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.menu ul, .menu li{
-    list-style: none;
-}
 
 .menu li a{
     background-color: #023047;
@@ -58,6 +55,9 @@ body{
     text-decoration: none;
     padding: 10px 15px;
     display: block;
+}
+.menu li {
+    list-style: none;
 }
 
 .menu > li{
@@ -95,6 +95,9 @@ body{
       .menu:hover .submenu {
         display: block;
       }
+      .submenu {
+        list-style: none;
+    }
 
 
 
@@ -105,7 +108,36 @@ body{
 .main-content {
     margin: 30px;
     justify-content: center;
-    display: block;
+
+}
+
+
+.contenedorIntegrante{
+    display: inline-flex;
+    background-color: #023047;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+
+}
+
+.contenedorIntegrante a{
+    padding: 20px;
+    margin: 15%;
+    text-align: center;
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
+.fotoIntegrante{
+    border-radius: 45px;
+    padding: 15px;
+    height: 50%;
+    width: 50%;
+    align-self: center;
+
 }
 
 
@@ -124,27 +156,27 @@ footer{
     color: white;
 }
 
-.footer-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
+    .footer-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
 
-.footer-content h3{
-    font-size: 1.8rem;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 3rem;
-}
+    .footer-content h3{
+        font-size: 1.8rem;
+        font-weight: 400;
+        text-transform: capitalize;
+        line-height: 3rem;
+    }
 
-.footer-content p{
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
-}
+    .footer-content p{
+        max-width: 500px;
+        margin: 10px auto;
+        line-height: 28px;
+        font-size: 14px;
+    }
 
 .redes{
     list-style: none;
@@ -153,19 +185,20 @@ footer{
     justify-content: center;
     margin: 1rem 0 3rem 0;
 }
-.redes li{
-    margin: 0 10px
-}
-.redes a{
-    text-decoration: none;
-    color: #ffffff;
-}
-.redes a i{
-    font-size: 1.1rem;
-}
-.redes a:hover i{
-    color:#fb8500
-}
+    .redes li{
+        margin: 0 10px
+    }
+    .redes a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+        .redes a i{
+            font-size: 1.1rem;
+        }
+        .redes a:hover i{
+            color:#fb8500
+        }
+
 
 .footer-bottom{
     background: #023047;
@@ -174,11 +207,11 @@ footer{
     text-align:center;
 }
 
-.footer-bottom p{
-    font-size: 14px;
-    word-spacing: 2px;
-    text-transform: capitalize;
-}
+    .footer-bottom p{
+        font-size: 14px;
+        word-spacing: 2px;
+        text-transform: capitalize;
+    }
 
 
 
@@ -189,6 +222,7 @@ footer{
 h1 {
      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
     font-size: 23px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; 
+
 } 
 
 h3 { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; 
@@ -205,3 +239,4 @@ blockquote {
 pre {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; 
         }
+
