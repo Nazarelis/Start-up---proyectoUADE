@@ -117,7 +117,7 @@ body{
 }
 
 .contenedorIntegrante{
-    display: inline-flex;
+    display: flex;
     background-color: #023047;
     margin: 15px;
     padding: 10px;
