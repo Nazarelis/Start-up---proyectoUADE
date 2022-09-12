@@ -111,6 +111,10 @@ body{
 
 }
 
+.contenedorFlex {
+    width: 90px;
+    display: flex;
+}
 
 .contenedorIntegrante{
     display: inline-flex;
