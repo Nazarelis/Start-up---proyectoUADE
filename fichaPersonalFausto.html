@@ -12,55 +12,49 @@
     <link rel="stylesheet" href="estilo.css">
     <style>
      
-    body {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-         background-color: rgb(209, 229, 255); 
-         color: rgb(0, 0, 0);
-         }
-
-     
-
-
-         main { text-align: center;}
-
-
-       #listas ul { 
-          margin-right: 40px;
-          padding-bottom: 1ex;
-         }
-
-         #listas ul li { display: flex;
-                    flex-direction: column;
-                      }
-                     
-img:hover {filter: opacity(.5);}
-
-      #icono { max-width: 10%;
-       max-height: 20%;}
-                        
     </style>
 
 
 </head>
 <body>
-  <header>
-        <img src="logoTransparente.png" alt="logo TraiAr" width="15%" height="15%">
-        <h1>TraiAr Technology</h1> 
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="integrantes.html">Integrantes</a></li>
-                <ul>
+    <header>
+        <div class="header">
+            <img src="img/logoTransparente.png" alt="logo TraiAr" width="13%" height="13%">
+        </div>
+    
+        <div class="menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="servicios.html">SERVICIOS</a></li>
+            <li><a href="integrantes.html">INTEGRANTES</a>
+                <ul class="submenu">
                     <li><a href="fichaPersonalGonzalo.html">Gonzalo Pedrosa</a></li>
                     <li><a href="fichaPersonalAnabel.html">Anabel Ojeda León</a></li>
                     <li><a href="fichaPersonalIsabel.html">Isabel Pacheco</a></li>
                     <li><a href="fichaPersonalFausto.html">Fausto Tapia</a></li>
                 </ul>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+            </li> 
+            <li><a href="contacto.html">CONTACTO</a></li>
+        </div>
     </header>
-  <main>
+
+
+    <main>
+        <div class="main-content">
+            <div>
+                <h2 class="bienvenida">Bienvenido a TraiAr Technology</h2>
+            </div>    
+            <div>
+                <h3>¿Quienes somos?</h3>
+                    <p class="parrafos">Somos un equipo apasionado, conformado por estudiantes de Desarrollo de Software de la UADE, dedicados al desarrollo web personalizado.
+                    <br> Ofrecemos el diseño y desarrollo de sitios web veloces, responsive, organizados, que cumplan las expectativas del cliente.
+                    </p>
+                <h3>¿Por qué elegir TraiAr?</h3>
+                    <p class="parrafos">Nuestro desafío es desarrollar sitios web profesionales, creativos y adaptables a cada cliente. Por ello, nos aseguramos de proporcionar a nuestros usuarios un trato personalizado para poder así analizar y entender sus necesidades, y poder guiarlos para lograr un producto que realmente cumpla con lo que requieren. </p>
+                <h3>Nuestra Visión</h3>
+                    <p class="parrafos">Ser la principal empresa de desarrollo web en Argentina.</p>
+            </div>        
+        </div>
+        </main>
     <div>
       <div id="nombre">
         <h1>Fausto Tapia</h1>
@@ -105,9 +99,9 @@ img:hover {filter: opacity(.5);}
 
         <p>¡Gracias!</p>
 
-        <img src="logoTransparente.png" alt="" id="icono">
+       
     </div>
-</main>
+
 
     <footer>
         <p>Todos los derechos reservados. 2022</p>
