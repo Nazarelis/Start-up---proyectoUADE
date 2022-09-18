@@ -21,6 +21,14 @@ body{
     font-size: 24px;
     text-transform: uppercase;
 }
+.presentacion img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+    
+}
+
 .menu{
     background-color: #023047;
     margin: 1px;
